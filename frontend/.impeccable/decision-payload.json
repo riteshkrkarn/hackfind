@@ -1,0 +1,137 @@
+{
+  "title": "Choose Hackfind’s visual world",
+  "question": "The roll assigned Check-in Wristband Rail. Keep it, take an alternate, re-roll, or take the category standard.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Check-in Wristband Rail",
+      "kicker": "THE ROLL",
+      "lineage": "hackathon badge desks and colored entry wristbands",
+      "thesis": "Your matches hang on the check-in rail — clipped, dated, ready to claim.",
+      "palette": ["#0b1f1a", "#f2f4f1", "#e8ff47", "#1a6b52"],
+      "materials": ["matte badge stock", "elastic band", "thermal print"],
+      "viewport": "Hackfind as the desk mark; headline as the check-in line; CTA as Get band → Discover; a rail of synthetic matched badges with source + deadline.",
+      "risk": "Reads as event merch if the rail doesn’t prove filtering.",
+      "raised": [
+        {
+          "from": "challenger-coil-tower",
+          "raise": "How-it-works climbs as three visible check-in courses with sealed seams between them."
+        },
+        {
+          "from": "challenger-cloud-edge",
+          "raise": "Signal color lives only on the wristband edge and CTA; the reading field stays calm."
+        },
+        {
+          "from": "challenger-minihompy",
+          "raise": "A small honest match counter sits as desk chrome, not decoration."
+        }
+      ],
+      "comp": ".impeccable/mocks/decision/assigned.webp"
+    },
+    {
+      "id": "model-pick",
+      "label": "Course Catalog Filter",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "campus registration catalogs and section filters",
+      "thesis": "Hackathons as catalog sections — filter once, only your seats remain.",
+      "palette": ["#12141a", "#f7f5ef", "#2f5bea", "#c45c26"],
+      "materials": ["offset print", "ruled columns", "registration ink"],
+      "viewport": "Brand as catalog masthead; filtered section list as the proof strip; CTA Enroll in Discover.",
+      "risk": "Also the direction most student-tool runs land on — familiar and effective.",
+      "comp": ".impeccable/mocks/decision/model-pick.webp"
+    },
+    {
+      "id": "challenger-wax-pack",
+      "label": "Wax Pack Match Cards",
+      "verdict": "competitive",
+      "lineage": "trading-card wax packs with stat backs",
+      "thesis": "Crack the pack: each match is a card — face for the event, flip for deadline stats.",
+      "palette": ["#1a2744", "#f4f0e6", "#c9a227", "#b91c1c"],
+      "materials": ["gum-dust cardstock", "team border ink", "ruled stat tables"],
+      "viewport": "Deal three synthetic match cards on the bedspread; CTA opens the rest of the pack in Discover.",
+      "case": "Holds clarity via stat backs; loses slightly on ID vs the hackathon-native wristband.",
+      "risk": "Sports nostalgia can drown the product job.",
+      "comp": ".impeccable/mocks/decision/challenger-wax-pack.webp",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-wax-pack-card-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/pop-culture-shelf-wax-pack-card.webp"
+    },
+    {
+      "id": "challenger-pulp-rack",
+      "label": "Pulp Event Rack",
+      "verdict": "competitive",
+      "lineage": "drugstore pulp paperback racks",
+      "thesis": "Spin the rack — most spines stay quiet; your matches turn face-out.",
+      "palette": ["#0f1729", "#f3ead8", "#e8452c", "#f5d64c"],
+      "materials": ["wire rack", "pulp cover stock", "taxi-yellow type"],
+      "viewport": "One face-out matched hackathon cover with three-tier lines; CTA spins you into Discover.",
+      "case": "Strong browsing ID; weaker on ‘never miss / accuracy’ vs a check-in claim.",
+      "risk": "Lurid pulp energy fights sharp, accurate voice.",
+      "comp": ".impeccable/mocks/decision/challenger-pulp-rack.webp",
+      "hero": "https://impeccable.style/worlds/cards/posters-covers-sleeves-pulp-rack-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/posters-covers-sleeves-pulp-rack.webp"
+    },
+    {
+      "id": "challenger-darkroom",
+      "label": "Safelight Darkroom",
+      "verdict": "competitive",
+      "lineage": "printing darkroom under amber safelight",
+      "thesis": "Your perfect match develops in the tray — timed, irreversible past the mark.",
+      "palette": ["#1a1208", "#c45c12", "#d9d4c8", "#2a241c"],
+      "materials": ["amber safelight", "enamel trays", "wet silver print"],
+      "viewport": "Amber field; a match print emerging; stations map discover → filter → remind.",
+      "case": "Holds process clarity for how-it-works; weaker student ID.",
+      "risk": "Mood photography can bury the CTA.",
+      "comp": ".impeccable/mocks/decision/challenger-darkroom.webp",
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-darkroom-safelight-bay-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/signals-instruments-darkroom-safelight-bay.webp"
+    },
+    {
+      "id": "challenger-coil-tower",
+      "label": "Coiled Earth Tower",
+      "verdict": "declined",
+      "lineage": "monumental coiled clay towers",
+      "palette": ["#c45c26", "#5c3317", "#f4efe6"],
+      "materials": ["terracotta coils", "slip seams"],
+      "case": "Loses ID and clarity for a filter product; cream/terracotta is the category monoculture.",
+      "kept": "Ascending courses as how-it-works seams."
+    },
+    {
+      "id": "challenger-cloud-edge",
+      "label": "Iridescent Cloud Edge",
+      "verdict": "declined",
+      "lineage": "diffracted cloud-edge spectra",
+      "palette": ["#e8eef5", "#98e0c8", "#e8a0c8"],
+      "materials": ["cloud white", "spectral fringe"],
+      "case": "Atmosphere without a product mechanism students can operate.",
+      "kept": "Accent confined to a single edge band."
+    },
+    {
+      "id": "challenger-minihompy",
+      "label": "Minihompy Room",
+      "verdict": "declined",
+      "lineage": "Cyworld furnishable mini-rooms",
+      "palette": ["#f7d6e0", "#c8e6f5", "#fff8f0"],
+      "materials": ["pastel tiles", "sticker furnishings"],
+      "case": "Decorating a room is not filtering hackathons.",
+      "kept": "Honest small counters as chrome."
+    }
+  ],
+  "reroll": {
+    "registers": ["safer", "bolder"]
+  },
+  "buildPath": {
+    "value": "code",
+    "toggle": true
+  },
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "Clean student SaaS landing: hero, feature grid, soft accent — executed at full craft.",
+    "palette": ["#ffffff", "#111827", "#2563eb"],
+    "materials": ["clean grid", "soft shadow", "product UI shot"],
+    "viewport": "Centered headline, dual CTA, three identical feature cards.",
+    "risk": "Indistinguishable from every other student tool by design.",
+    "comp": ".impeccable/mocks/decision/canon.webp"
+  },
+  "steer": true
+}

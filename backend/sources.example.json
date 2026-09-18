@@ -1,0 +1,25 @@
+[
+  {
+    "name": "example-html-board",
+    "kind": "html",
+    "enabled": false,
+    "config": {
+      "list_url": "https://example.com/hackathons",
+      "link_selector": "a[href*='hackathon']",
+      "base_url": "https://example.com",
+      "skip_substrings": ["login", "signup"],
+      "max_items": 30
+    }
+  },
+  {
+    "name": "tavily-student-hacks",
+    "kind": "tavily",
+    "enabled": false,
+    "config": {
+      "query": "upcoming student hackathons apply deadline",
+      "max_results": 15,
+      "search_depth": "basic",
+      "include_domains": ["devpost.com", "mlh.io", "devfolio.co", "unstop.com"]
+    }
+  }
+]

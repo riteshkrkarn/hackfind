@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+:root {
+  --desk: #0b1f1a;
+  --field: #f2f4f1;
+  --band: #e8ff47;
+  --deep: #1a6b52;
+  --ink: #0b1f1a;
+  --muted: #3d524c;
+  --badge: #e8ece6;
+  --rail: #d5dbd4;
+  --focus: #1a6b52;
+
+  --background: var(--field);
+  --foreground: var(--ink);
+  --accent: var(--band);
+  --border: var(--rail);
+}
+
+@theme inline {
+  --color-desk: var(--desk);
+  --color-field: var(--field);
+  --color-band: var(--band);
+  --color-deep: var(--deep);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-badge: var(--badge);
+  --color-rail: var(--rail);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-border: var(--border);
+  --font-display: var(--font-chakra);
+  --font-sans: var(--font-atkinson);
+  --font-mono: var(--font-fragment);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background: var(--field);
+  color: var(--ink);
+  font-family: var(--font-atkinson), system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--band);
+  color: var(--desk);
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 3px;
+}
+
+@keyframes rail-settle {
+  from {
+    opacity: 0.35;
+    transform: translateY(-10px);
+    filter: blur(2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+@keyframes band-clip {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+.rail-item {
+  animation: rail-settle 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.band-edge {
+  animation: band-clip 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rail-item,
+  .band-edge {
+    animation: none;
+  }
+}
